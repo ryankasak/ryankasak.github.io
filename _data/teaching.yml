@@ -2,20 +2,68 @@
 # Each entry needs: course, title
 # Optional: term, role, url, description
 
-- course: Physics 1, 2, 3
-  title: The Feynman Lectures on Physics
-  term: 1961-63
-  url: https://www.feynmanlectures.caltech.edu/
+- course: LING 2303
+  title: General Linguistics
+  term: Spring 2025, Spring 2024, Spring 2021
 
-- course: Physics 219
-  title: Quantum Computing
-  term: 1986
+- course: LING 3033
+  title: Phonetic Description
+  term: Spring 2023
 
-- course: Graduate Seminar
-  title: Quantum Electrodynamics
-  term: 1953-88
+- course: LING 3053
+  title: Phonology
+  term: Fall 2024, Fall 2022, Fall 2021, Fall 2020
 
-- course: Physics X
-  title: Informal undergraduate Q&A sessions
-  term: 1961-78
-  description: Weekly sessions where undergraduates could ask about anything in physics.
+- course: LING 3173
+  title: Lesser Studied Languages
+  term: Fall 2025
+  description: An overview of the Siouan language family, with a focus on Mandan, Osage, Lakota, and Biloxi.
+
+- course: LING 3813
+  title: Sociolinguistics
+  term: Spring 2027, Fall 2024, Spring 2022
+
+- course: LING 3890
+  title: Honors Research
+  term: Spring 2024, Spring 2023, Fall 2021
+  description: Honors thesis supervision for unique, student-led topics.
+
+- course: LING 4023
+  title: Second Language Acquisition Theory
+  term: Spring 2026, Fall 2022, Fall 2021, Fall 2020
+
+- course: LING 4053
+  title: Morphology
+  term: Spring 2027, Spring 2025
+
+- course: LING 4173
+  title: Typology
+  term: Fall 2025
+
+- course: LING 4313
+  title: Techniques of Historical Linguistics
+  term: Spring 2026, Spring 2023, Spring 2021
+
+- course: LING 4363
+  title: Linguistic Field Methods
+  term: Spring 2024
+  description: A consultant-driven exploration of a language that is not spoken by any students in class (Vietnamese).
+
+- course: LING 4983
+  title: Senior Essay
+  term: Spring 2022
+  description: Capstone paper supervision for Linguistics majors.
+
+- course: LING 4990
+  title: Independent Study
+  term: Fall 2025, Fall 2021, Fall 2020
+  description: Independent undergraduate research project supervision with a final research paper.
+
+- course: LING 5990
+  title: Independent Study
+  term: Spring 2027
+  description: Indepdent graduate research project supervision with a final research paper.
+
+- course: TESL 5533
+  title: Teaching ESL Reading, Writing, Listening, and Speaking
+  term: Summer 2027, Summer 2023

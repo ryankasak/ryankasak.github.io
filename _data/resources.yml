@@ -1,0 +1,17 @@
+# Resources for linguists, shown on the Resources page in the order listed.
+# Each entry needs: name, description
+# Optional: authors, website, repo, docs, paper
+
+- name: Using Microsoft Word (.docx) for linguists
+  authors: Ryan M. Kasak
+  website: https://github.com/ryankasak/ResourcesForLinguists/blob/main/Sample%20Linguistics%20Paper%20v3.docx
+  description: >-
+    A sample paper that walks users through some common formatting and presentation issues
+    that linguists often employ in books and papers.
+
+- name: Using LaTeX (.tex) for linguists
+  authors: Ryan M. Kasak
+  website: https://www.overleaf.com/read/hzpwycgtdvky#2d434a
+  description: >-
+    A template on Overleaf that explains some basic tools found in LaTeX and some common
+    environments and commands that linguists often use.

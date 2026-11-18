@@ -1,24 +1,27 @@
 ---
 ---
 
+
+
 {% comment %}
-  Bold the site owner's name. Uses scholar.last_name / scholar.first_name
-  from _config.yml; the first matching form wins.
+  Bold the site owner's name in author and editor lists.
 {% endcomment %}
+
 {% assign ref = reference %}
+
 {% if site.scholar.last_name and site.scholar.first_name %}
-  {% assign bolded = false %}
   {% for first in site.scholar.first_name %}
-    {% unless bolded %}
-      {% capture me %}{{ site.scholar.last_name }}, {{ first }}{% endcapture %}
-      {% if ref contains me %}
-        {% capture me_bold %}<b>{{ me }}</b>{% endcapture %}
-        {% assign ref = ref | replace: me, me_bold %}
-        {% assign bolded = true %}
-      {% endif %}
-    {% endunless %}
+    {%- capture family_first -%}{{ site.scholar.last_name }}, {{ first }}{%- endcapture -%}
+    {%- capture given_first -%}{{ first }} {{ site.scholar.last_name }}{%- endcapture -%}
+    {%- capture bold_family -%}<strong>{{ family_first }}</strong>{%- endcapture -%}
+    {%- capture bold_given -%}<strong>{{ given_first }}</strong>{%- endcapture -%}
+
+    {% assign ref = ref | replace: family_first, bold_family %}
+    {% assign ref = ref | replace: given_first, bold_given %}
   {% endfor %}
 {% endif %}
+
+
 
 {% comment %}
   Links come from BibTeX fields:

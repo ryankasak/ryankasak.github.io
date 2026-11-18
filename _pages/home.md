@@ -8,26 +8,28 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Electrodynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Integrals</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Superfluidity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Parton Model</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Computing</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Siouan Languages</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Caddoan Languages</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Algonquian Languages</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Historical Linguistics</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Language Documentation and Description</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Morphology</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Phonetics-Phonology Interface</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+I am a linguist working in the field of language documenation, language change, word building, and sound systems. 
+My primary focus is on languages of the Americas, specifically the Siouan language family. 
+However, I have also done fieldwork and collaborated on work dealing with the Caddoan language family and the Algonquian language family.
+
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title">{% include icon.html name="calendar" class="callout-icon" %} Fall 2026 Semester</div>
+<p>I am on sabbatical for this semester and will return to campus for the Spring 2027 semester. Please feel free to reach out to me via email, through do note that I may take a while to respond, as I am not checking my OU email frequently.</p>
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ '/images/banner2.png' | relative_url }}" alt="NeighborNet of Siouan languages" width="1400" height="449" loading="lazy">
+<div class="banner-caption">A proposed NeighborNet of Siouan languages and including Yuchi from Kasak (2015).</div>
 </div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
@@ -42,7 +44,7 @@ Research in theoretical physics helps us to make predictions about how the unive
 
 ## About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+Originally from the Chicagoland area, I grew up being fascinated by language, principally from my Russian-speaking grandmother.
+I received my undergraduate degree in Russian, Spanish, and Secondary Foreign Language Education from the University of Iowa in 2006, whereupon I worked as a high school teacher.
+After finishing my M.A. in Linguistics at Northeastern Illinois University in 2011, I went on to complete my Ph.D. in Linguistics at Yale University in 2019.
+I served as an Instructor and Visiting Professor of Education at NEIU and Elmhurst University, respectively, until arriving at the University of Oklahoma in 2020.

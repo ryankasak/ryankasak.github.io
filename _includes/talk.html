@@ -1,7 +1,7 @@
 {% assign talk = include.talk %}
 <div class="pub-entry">
   {% if talk.year %}<span class="year-badge">{{ talk.year }}</span>{% endif %}
-  {% capture line %}<strong>{{ talk.title }}</strong>{% if talk.event %}. {{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.date %}, {{ talk.date }}{% endif %}{% endcapture %}
+  {% capture line %}<strong>{{ talk.title }}</strong>{% if talk.co_presenters %} (with {{ talk.co_presenters }}){% endif %}{% if talk.event %}. {{ talk.event }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.date %}, {{ talk.date }}{% endif %}{% endcapture %}
   {% assign last_char = line | slice: -1 %}
   <div class="text-justify">{{ line }}{% unless last_char == "." %}.{% endunless %}</div>
   {% if talk.url or talk.slides or talk.video %}

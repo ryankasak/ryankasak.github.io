@@ -33,14 +33,19 @@ permalink: /about/
 {% if site.data.grants %}
 <div class="section-card">
 <h3>Grants</h3>
-<ul>
-{% for grant in site.data.grants %}
-<li>{{ grant.name }}</li>
+{% assign sorted_grants = site.data.grants | sort: "year" | reverse %}
+{% for grant in sorted_grants %}
+<div class="pub-entry">
+<span class="year-badge" style="float: right;">{{ grant.year }}</span>
+<p class="pub-title">{{ grant.name }}</p>
+<p class="pub-authors">{{ grant.organization }}</p>
+<p class="pub-venue">Award amount: {{ grant.amount }}</p>
+</div>
 {% endfor %}
-</ul>
 </div>
 {% endif %}
 
+{% comment %}
 {% if site.data.awards %}
 <div class="section-card">
 <h3>Awards</h3>
@@ -51,7 +56,9 @@ permalink: /about/
 </ul>
 </div>
 {% endif %}
+{% endcomment %}
 
+{% comment %}
 {% if site.data.funders %}
 <div class="section-card">
 <h4>Sponsors</h4>
@@ -62,3 +69,4 @@ permalink: /about/
 </div>
 </div>
 {% endif %}
+{% endcomment %}

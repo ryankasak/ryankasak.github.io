@@ -18,7 +18,7 @@ permalink: /talks/
 
 {% if contributed.size > 0 %}
 <div class="section-card" markdown="0">
-<h2>Contributed Talks</h2>
+<h2>Conference Presentations</h2>
 {% for talk in contributed %}{% include talk.html talk=talk %}{% endfor %}
 </div>
 {% endif %}

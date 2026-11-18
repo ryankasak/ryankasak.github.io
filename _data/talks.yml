@@ -3,57 +3,230 @@
 # Optional: location, date (free text, e.g. "11 December"), type (invited or contributed;
 #           anything other than invited is listed as contributed), url, slides, video
 
-- title: Personal observations on the reliability of the Shuttle
-  event: Rogers Commission
-  location: Washington, D.C.
-  year: 1986
+- title: Writing the grammar of Mandan, a Siouan language of the Great Plains
+  event: "Metagram Seminar (Laboratoire d'Histoire des Théories Linguistiques: Université Paris Cité)"
+  location: Paris, France
+  year: 2027
   type: invited
 
-- title: Simulating physics with computers
-  event: MIT Conference on Physics and Computation
-  year: 1981
+- title: The phonetics-phonology interface and voiceless vowels in Cheyenne
+  event: Department of Linguistics Colloquium (University of North Texas)
+  location: Denton, TX
+  year: 2024
   type: invited
   slides: https://example.com/slides
 
-- title: Difficulties in applying the variational principle to quantum field theories
-  event: Workshop on Variational Calculations in Quantum Field Theory
-  location: Wangerooge
-  year: 1987
+- title: Using older recordings and texts to create language learning materials
+  event: "<em>Madarogara'o Giiwia'sh</em> 'Our Languages Returned': Native Community Language Worker Gathering (Mandan, Hidatsa, and Arikara Nation)"
+  location: Bismarck, ND
+  year: 2023
+  type: invited
 
-- title: Los Alamos from below
-  event: APS Annual Meeting
-  location: Santa Barbara
-  year: 1975
+- title: "'As I walked along, the rain stopped': Same and different subjects across sentences in Quechua"
+  event: "Linguistics Speaker Series (Department of Modern Languages, Literatures, and Linguistics: University of Oklahoma)"
+  location: Norman, OK
+  year: 2022
+  type: invited
   video: https://example.com/video
 
-- title: The parton model
-  event: Third International Conference on High Energy Collisions
-  location: Stony Brook
-  year: 1970
-
-- title: The development of the space-time view of quantum electrodynamics
-  event: Nobel Lecture
-  location: Stockholm
-  year: 1965
-  date: 11 December
+- title: "Phonological innovation in Missouri Valley Siouan: Debuccalizations and tonogenesis"
+  event: "Workshop on the Phonetics and Phonotactics of Hidatsa and Missouri Valley Siouan (California State University, Fresno)"
+  location: Fresno, CA
+  year: 2019
   type: invited
+
+- title: "Modern methodologies in historical linguistics: Using computational phylogenetics to investigate ancient relationships in North America"
+  event: Linguistics Colloquium (Northeastern Illinois University)
+  location: Chicago, IL
+  year: 2016
+  type: invited
+
+- title: Numerals in Proto-Siouan
+  event: 46th Siouan and Caddoan Languages Conference
+  location: "Lawrence, KS: University of Kansas"
+  year: 2026
   url: https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/
 
-- title: The relation of mathematics to physics
-  event: Cornell Messenger Lectures
-  year: 1964
+- title: Voicelessness and gestural overlap in Cheyenne
+  co_presenters: "Douglas Whalen  and Gavin Redding"
+  event: Annual meeting of the Society for the Studies of Indigenous Languages of the Americas at the Linguistic Society of America annual meeting
+  location: New Orleans, LA
+  year: 2026
 
-- title: There's plenty of room at the bottom
-  event: Annual Meeting of the American Physical Society
-  location: Caltech
-  year: 1959
-  type: invited
 
-- title: The universal Fermi interaction
-  event: Rochester Conference on High Energy Physics
-  year: 1957
+- title: "Grammar writing, lexicography, and archival materials: The future of Siouan language studies"
+  event: 45th Siouan and Caddoan Languages Conference
+  location: "Crow Agency, MT: Little Bighorn College"
+  year: 2025
 
-- title: Atomic theory of liquid helium
-  event: International Conference on Theoretical Physics
-  location: Tokyo
-  year: 1953
+- title: Does Proto-Siouan have too many consonants?
+  event: 45th Siouan and Caddoan Languages Conference
+  location: "Crow Agency, MT: Little Bighorn College"
+  year: 2025
+
+- title: Phonetic characteristics of Cheyenne voiceless vowels
+  co_presenters: "Douglas Whalen  and Gavin Redding"
+  event: 56th Algonquian Conference
+  location: "Oklahoma City, OK: First Americans Museum"
+  year: 2024
+
+- title: Allocuvity in Siouan
+  event: 44th Siouan and Caddoan Languages Conference
+  location: "Bismarck, ND: North Dakota State Heritage Center and Museum"
+  year: 2024
+
+- title: Towards a Comparative Caddoan Database
+  event: 43rd Siouan and Caddoan Langauges Conference
+  location: "Norman, OK: University of Oklahoma"
+  year: 2023
+
+- title: Creating a treebank for Mandan
+  co_presenters: "Maeve Carmody"
+  event: 43rd Siouan and Caddoan Languages Conference
+  location: "Norman, OK: University of Oklahoma"
+  year: 2023
+
+- title: "A linguistic anthropological analysis of Siouan 'bear'"
+  co_presenters: "Jill Greer"
+  event: 43rd Siouan and Caddoan Languages Conference
+  location: "Norman, OK: University of Oklahoma"
+  year: 2023
+
+- title: "Revisiting Sapir's grouping of Siouan and Yuchi: A century later"
+  event: 42nd Siouan and Caddoan Languages Conference
+  location: "Charlottesville, VA: University of Virginia"
+  year: 2022
+
+- title: Topic and focus in Mandan
+  event: 41st Siouan and Caddoan Languages Conference
+  location: "Held remotely via Zoom"
+  year: 2021
+
+- title: "Clause structure in Proto-Siouan: From words to clitics and affixes"
+  event: 40th Siouan and Caddoan Languages Conference
+  location: "Held remotely via Zoom"
+  year: 2020
+
+- title: Variable production of sublaryngeal frication in Hidatsa
+  co_presenters: "Jonnia Torres Carolan"
+  event: Annual meeting of Society for the Studies of Indigenous Languages of the Americas at the Linguistic Society of America annual meeting
+  location: New York, NY
+  year: 2019
+
+- title: Language endangerment and revitalization
+  co_presenters: "Lewis Gebhardt"
+  event: Northeastern Illinois University Native American Month Program
+  location: Chicago, IL
+  year: 2018
+
+- title: "When is a suffix not a suffix? Crosslinguistic evidence of morphological complexity"
+  event: 9th Annual Faculty Symposium
+  location: "Chicago, IL: Northeastern Illinois University"
+  year: 2018
+
+- title: Nasal harmony in Hoocąk and Mandan
+  co_presenters: "Sarah Lundquist"
+  event: 38th Siouan and Caddoan Languages Conference
+  location: "Chicago, IL: Northeastern Illinois University"
+  year: 2018
+
+- title: Phonetic analysis of obstruent series in Hidatsa
+  co_presenters: "Jonnia Torres Carolan"
+  event: 38th Siouan and Caddoan Languages Conference
+  location: "Chicago, IL: Northeastern Illinois University"
+  year: 2018
+
+- title: "Inflectional morphology and the verbal template: Crow, Hoocąk, and Mandan"
+  co_presenters: "Sarah Lundquist, Jonnia Torres & Brittany Williams"
+  event: 36th Siouan and Caddoan Languages Conference
+  location: "Newkirk, OK: Otoe-Missouri Tribe"
+  year: 2016
+
+- title: "Reconsidering the Siouan family tree: Siouan's relationship to Catawban and Yuchi"
+  event: 36th Siouan and Caddoan Languages Conference
+  location: "Newkirk, OK: Otoe-Missouria Tribe"
+  year: 2016
+
+- title: Templatic morphology in Siouan and boundary-sensitive affixation
+  co_presenters: "Sarah Lundquist, Jonnia Torres & Brittany Williams"
+  event: 21st Workshop on the Structure and Constituency of the Languages of the Americas
+  location: "Montreal, QC: Université du Québec à Montréal"
+  year: 2016
+
+- title: A phonetic study of accentuation in Hidatsa
+  co_presenters: "John Boyle, Sarah Lundquist, Armik Mirzayan, Jonnia Torres & Brittany Williams"
+  event: Annual meeting of Society for the Studies of Indigenous Languages of the Americas at the Linguistic Society of America annual meeting
+  location: Washington, DC
+  year: 2016
+
+- title: "Hidatsa language revitalization: Documentation on the Fort Berthold Reservation"
+  co_presenters: "Sarah Lundquist, Jonnia Torres & Brittany Williams"
+  event: 4th Conference on Culture, Language, and Social Practice
+  location: "Boulder, CO: University of Colorado"
+  year: 2015
+
+- title: Allocutive agreement and root clause phenomena in Mandan
+  event: 35th Siouan and Caddoan Languages Conference
+  location: "Marksville, LA: Tunica-Biloxi Tribe"
+  year: 2015
+
+- title: Word structure in Caddo
+  event: 35th Siouan and Caddoan Languages Conference
+  location: "Marksville, LA: Tunica-Biloxi Tribe"
+  year: 2015
+
+- title: Quiripi verbal morphology
+  co_presenters: "Claire Bowern"
+  event: 46th Algonquian Conference
+  location: "Uncasville, CT: Mohegan Tribe"
+  year: 2014
+
+- title: Switch-reference and imperatives in Siouan
+  event: 34th Siouan and Caddoan Languages Conference
+  location: "Madison, WI: University of Wisconsin"
+  year: 2014
+
+- title: The clitic field in Mandan
+  event: Annual meeting of Society for the Studies of Indigenous Languages of the Americas at the Linguistic Society of America annual meeting
+  location: Minneapolis, MN
+  year: 2014
+
+- title: Valency and applicatives in Mandan
+  event: 33rd Siouan and Caddoan Languages Conference
+  location: "Fort Yates, ND: Sitting Bull College"
+  year: 2013
+
+- title: A reconstruction of verbs of motion in Proto-Siouan
+  event: Annual meeting of Society for the Studies of Indigenous Languages of the Americas at the Linguistic Society of America annual meeting
+  location: Boston, MA
+  year: 2013
+
+- title: Treatment of vertitivity in Siouan
+  event: 32nd Siouan and Caddoan Languages Conference
+  location: "Lawrence, KS: University of Kansas"
+  year: 2012
+
+- title: Syllable structure in Crow
+  event: 20th Research and Creative Activities Symposium
+  location: "Chicago, IL: Northeastern Illinois University"
+  year: 2012
+
+- title: "The key to <em>ki-</em>: Vertitivity in Mandan verbs"
+  event: 19th Research and Creative Activities Symposium
+  location: "Chicago, IL: Northeastern Illinois University"
+  year: 2011
+
+- title: Teachers' attitudes towards multilingualism in the mainstream classroom
+  event: 19th Research and Creative Activities Symposium
+  location: "Chicago, IL: Northeastern Illinois University"
+  year: 2011
+
+- title: Perceptions and practices of teachers in the modern metropolitan multilingual classroom
+  event: 3rd Illinois Languages and Linguistics Society Conference
+  location: "Urbana, IL: University of Illinois"
+  year: 2011
+
+- title: Teachers' attitudes towards multilingualism in the classroom
+  event: 2nd Bilingualism Forum
+  location: "Chicago, IL: University of Illinois at Chicago"
+  year: 2011
