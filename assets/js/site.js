@@ -5,6 +5,7 @@
 
 (function () {
   'use strict';
+  document.documentElement.classList.add('js');
 
   // Icons come from the inline sprite in _includes/icons.svg
   function iconHTML(name) {
