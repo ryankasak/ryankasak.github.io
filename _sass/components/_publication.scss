@@ -145,8 +145,12 @@
 }
 
 @media (max-width: 768px) {
-  .pub-entry a {
+  .bibliography {
     overflow-wrap: anywhere;
-    word-wrap: break-word;
+  }
+
+  .bibliography a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
