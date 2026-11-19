@@ -143,3 +143,10 @@
     color: var(--text-muted);
   }
 }
+
+@media (max-width: 768px) {
+  .pub-entry a {
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+  }
+}
