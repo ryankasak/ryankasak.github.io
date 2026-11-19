@@ -20,6 +20,7 @@ permalink: /
 I am a linguist working in the field of language documenation, language change, word building, and sound systems. 
 My primary focus is on languages of the Americas, specifically the Siouan language family. 
 However, I have also done fieldwork and collaborated on work dealing with the Caddoan language family and the Algonquian language family.
+I am the current editor of the <em>Proceedings of the Siouan and Caddoan Languages Conference</em>, and I maintain the conference website, <a href="https://siouan.org">Siouan.org</a>.
 
 
 <div class="callout callout-success" markdown="0">
