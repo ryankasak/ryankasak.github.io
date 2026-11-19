@@ -145,12 +145,13 @@
 }
 
 @media (max-width: 768px) {
-  .bibliography {
+  #pubList li {
     overflow-wrap: anywhere;
+    word-wrap: break-word;
   }
 
-  .bibliography a {
+  #pubList a {
     overflow-wrap: anywhere;
-    word-break: break-word;
+    word-break: break-all;
   }
 }
